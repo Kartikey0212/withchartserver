@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "dev": "node -r esm server.js",
+    "build": "node -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.1",
+    "child_process": "1.0.2",
+    "cluster": "0.7.7",
+    "dotenv": "10.0.0",
+    "esm": "3.2.25",
+    "express": "4.17.1",
+    "express-winston": "4.1.0",
+    "highcharts-export-server": "2.1.0",
+    "image-size": "1.0.0",
+    "jspdf": "2.3.1",
+    "morgan": "1.10.0",
+    "pdf-to-base64": "1.0.3",
+    "pptxgenjs": "3.6.0"
+  }
+}
